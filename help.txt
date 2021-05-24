@@ -1,0 +1,8 @@
+main.pl [file...] [Options]
+
+General Options:
+
+-s <directory>      Specify path to script directory (Required)
+-e <extension>      Specify extension to use (I.E. file.tex -> file.tex.(extension))
+-o <directory>      Specify output directory (where to dump all of the files) (Required).
+-h                  Prints this message
