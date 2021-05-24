@@ -16,9 +16,9 @@ latexp.pl -h
 
 # Installation
 
-1. ```sh
+1. 
+```sh 
 git clone https://github.com/junikimm717/Latexp.git
-cd Latexp
 ```
 
-2. add ```Latexp/bin``` to your ```$PATH```` variable.
+2. add ```Latexp/bin``` to your ```$PATH``` variable.
