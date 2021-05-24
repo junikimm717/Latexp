@@ -24,9 +24,9 @@ sub wn {
 
 sub help {
     my @l = grep /^-h$/ , @ARGV;
-    if (@l) {
-        my $dirname = File::Spec->rel2abs(dirname(__FILE__));
-        open(FH, "<", "$dirname/help.txt");
+    if (@l or ! @ARGV) {
+        my $dirname = File::Spec->rel2abs(dirname(dirname(__FILE__)));
+        open(FH, "<", "$dirname/help.txt") || die "$dirname/help.txt cannot be opened.";
         my $c = "";
         while (<FH>) {$c = $c . $_;}
         print STDERR $c;
