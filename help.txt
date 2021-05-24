@@ -1,4 +1,4 @@
-main.pl [file...] [Options]
+latexp.pl [file...] [Options]
 
 General Options:
 
